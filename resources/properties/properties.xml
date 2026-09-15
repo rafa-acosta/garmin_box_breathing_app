@@ -1,0 +1,14 @@
+<properties>
+    <property id="inhale" type="number">4</property>
+    <property id="holdIn" type="number">4</property>
+    <property id="exhale" type="number">4</property>
+    <property id="holdOut" type="number">4</property>
+    <property id="cycles" type="number">10</property>
+    <property id="vibration" type="boolean">true</property>
+    <property id="theme" type="number">0</property>
+    <property id="inhaleColor" type="number">0</property>
+    <property id="holdInColor" type="number">1</property>
+    <property id="exhaleColor" type="number">2</property>
+    <property id="holdOutColor" type="number">3</property>
+    <property id="ringColor" type="number">0</property>
+</properties>

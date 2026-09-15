@@ -1,0 +1,38 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Garmin Connect IQ build artifacts
+bin/
+*.prg
+*.iq
+*.debug.xml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local Garmin SDK, Java, simulator state, and signing keys
+.tools/
+.local-ciq/
+*.der
+*.pem
+*.key
+test-output/

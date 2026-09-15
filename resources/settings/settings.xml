@@ -1,0 +1,58 @@
+<settings>
+    <setting propertyKey="@Properties.inhale" title="@Strings.Inhale"><settingConfig type="numeric" min="1" max="15"/></setting>
+    <setting propertyKey="@Properties.holdIn" title="@Strings.HoldIn"><settingConfig type="numeric" min="1" max="15"/></setting>
+    <setting propertyKey="@Properties.exhale" title="@Strings.Exhale"><settingConfig type="numeric" min="1" max="15"/></setting>
+    <setting propertyKey="@Properties.holdOut" title="@Strings.HoldOut"><settingConfig type="numeric" min="1" max="15"/></setting>
+    <setting propertyKey="@Properties.cycles" title="@Strings.Cycles"><settingConfig type="numeric" min="1" max="60"/></setting>
+    <setting propertyKey="@Properties.vibration" title="@Strings.Vibration"><settingConfig type="boolean"/></setting>
+    <setting propertyKey="@Properties.inhaleColor" title="@Strings.Inhale"><settingConfig type="list">
+        <listEntry value="0">@Strings.Cyan</listEntry>
+        <listEntry value="1">@Strings.Lavender</listEntry>
+        <listEntry value="2">@Strings.Mint</listEntry>
+        <listEntry value="3">@Strings.Violet</listEntry>
+        <listEntry value="4">@Strings.Blue</listEntry>
+        <listEntry value="5">@Strings.Gold</listEntry>
+        <listEntry value="6">@Strings.Coral</listEntry>
+        <listEntry value="7">@Strings.White</listEntry>
+    </settingConfig></setting>
+    <setting propertyKey="@Properties.holdInColor" title="@Strings.HoldIn"><settingConfig type="list">
+        <listEntry value="0">@Strings.Cyan</listEntry>
+        <listEntry value="1">@Strings.Lavender</listEntry>
+        <listEntry value="2">@Strings.Mint</listEntry>
+        <listEntry value="3">@Strings.Violet</listEntry>
+        <listEntry value="4">@Strings.Blue</listEntry>
+        <listEntry value="5">@Strings.Gold</listEntry>
+        <listEntry value="6">@Strings.Coral</listEntry>
+        <listEntry value="7">@Strings.White</listEntry>
+    </settingConfig></setting>
+    <setting propertyKey="@Properties.exhaleColor" title="@Strings.Exhale"><settingConfig type="list">
+        <listEntry value="0">@Strings.Cyan</listEntry>
+        <listEntry value="1">@Strings.Lavender</listEntry>
+        <listEntry value="2">@Strings.Mint</listEntry>
+        <listEntry value="3">@Strings.Violet</listEntry>
+        <listEntry value="4">@Strings.Blue</listEntry>
+        <listEntry value="5">@Strings.Gold</listEntry>
+        <listEntry value="6">@Strings.Coral</listEntry>
+        <listEntry value="7">@Strings.White</listEntry>
+    </settingConfig></setting>
+    <setting propertyKey="@Properties.holdOutColor" title="@Strings.HoldOut"><settingConfig type="list">
+        <listEntry value="0">@Strings.Cyan</listEntry>
+        <listEntry value="1">@Strings.Lavender</listEntry>
+        <listEntry value="2">@Strings.Mint</listEntry>
+        <listEntry value="3">@Strings.Violet</listEntry>
+        <listEntry value="4">@Strings.Blue</listEntry>
+        <listEntry value="5">@Strings.Gold</listEntry>
+        <listEntry value="6">@Strings.Coral</listEntry>
+        <listEntry value="7">@Strings.White</listEntry>
+    </settingConfig></setting>
+    <setting propertyKey="@Properties.ringColor" title="@Strings.ProgressRing"><settingConfig type="list">
+        <listEntry value="0">@Strings.Cyan</listEntry>
+        <listEntry value="1">@Strings.Lavender</listEntry>
+        <listEntry value="2">@Strings.Mint</listEntry>
+        <listEntry value="3">@Strings.Violet</listEntry>
+        <listEntry value="4">@Strings.Blue</listEntry>
+        <listEntry value="5">@Strings.Gold</listEntry>
+        <listEntry value="6">@Strings.Coral</listEntry>
+        <listEntry value="7">@Strings.White</listEntry>
+    </settingConfig></setting>
+</settings>
